@@ -8,10 +8,10 @@ body{
 }
 #lottie{
     background-color:rgba(255, 255, 255, 0);
-    width: 65%;
-    height: 65%;
+    width: 45%;
+    height: 45%;
     display: block;
-    overflow: hidden;
+    overflow: auto;
     transform: translate3d(0,0,0);
     margin: 10% auto;
     opacity: 1;
