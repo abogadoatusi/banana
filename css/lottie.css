@@ -4,17 +4,28 @@ body{
     background-color:rgb(255, 199, 80);
     margin: 0px;    
     height: 100%;
-    overflow: hidden;
 }
 #lottie{
     background-color:rgba(255, 255, 255, 0);
-    width: 60%;
-    height: 60%;
+    width: 65%;
+    height: 65%;
     display: block;
-    overflow: auto;
+    overflow: scroll;
     transform: translate3d(0,0,0);
     margin: 10% auto;
     opacity: 1;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  z-index: -1;
 }
 
 *,
